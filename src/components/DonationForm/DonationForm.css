@@ -1,0 +1,15 @@
+.donation-container{
+    margin-top: 10%;
+}
+.donation-heading{
+    margin-bottom: 5%;
+}
+.btn-donate{
+    margin: 1rem;
+    margin-top: 5%;
+    margin-left: 75%;
+    width: 40%;
+}
+.donation-details{
+    resize: none;
+}
