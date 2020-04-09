@@ -11,7 +11,8 @@
 
 
 # Heroku Deployment
-https://gladiators-digital-diary.herokuapp.com/
+https://mern-stack-node-api.herokuapp.com/
 
 #git Repo
+https://github.com/2020-Winter-ITE-5430-A/AvengersReactProject
 
