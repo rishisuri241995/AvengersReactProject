@@ -2,21 +2,15 @@ import React, { Component } from 'react'
 import { Card, Container } from 'react-bootstrap'
 import './NGOs.css'
 import { Row } from 'react-bootstrap';
-import axios from 'axios';
+// import axios from 'axios';
 
 export default class NGOs extends Component {
-    state = {
-        ngos:[]
-    }
     handleCardClick() {
         alert("Card Clicked");
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/api/ngos/')
-        .then(res => {
-            this.setState({ngos:res.data})
-        }
-        )
+        // axios.get('http://localhost:5000/api/users/')
+        // .then()
     }
     render() {
         return (
@@ -25,22 +19,6 @@ export default class NGOs extends Component {
                     <h1>Ngos Work With Us</h1>
                 </div>
                 <Container className="main-container">
-                    {
-                        this.state.ngos.map(ngo => {
-                            return <div key={ngo._id}>
-                            <Card className="bg-dark ngo-card text-white" onClick={this.handleCardClick}>
-                            <Card.Img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fagcdn-2mrybbgckm7omi0k.netdna-ssl.com%2Fwp-content%2Fuploads%2F2017%2F06%2Falphagamma-3-reasons-why-helping-people-is-not-always-good-for-business-entrepreneurship.jpg&f=1&nofb=1" alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>{ngo.name}</Card.Title>
-                                <Card.Text>
-                                    {ngo.detail}
-                                </Card.Text>
-                                <Card.Text>{ngo.address}</Card.Text>
-                            </Card.ImgOverlay>
-                        </Card>
-                        </div>
-                        })
-                    }
                     <Row>
                         <Card className="bg-dark ngo-card text-white" onClick={this.handleCardClick}>
                             <Card.Img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fagcdn-2mrybbgckm7omi0k.netdna-ssl.com%2Fwp-content%2Fuploads%2F2017%2F06%2Falphagamma-3-reasons-why-helping-people-is-not-always-good-for-business-entrepreneurship.jpg&f=1&nofb=1" alt="Card image" />

@@ -1,0 +1,15 @@
+.navbar-logo{
+    width: 70%;
+}
+.navbar-brand{
+    width:5%;
+    height: 50%;
+}
+.ml-auto{
+    margin-right: 2vw;
+}
+.sociallogo{
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1rem;
+}

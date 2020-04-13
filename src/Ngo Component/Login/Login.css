@@ -1,0 +1,33 @@
+.btn-login{
+    margin-top: 2rem;
+    width: 10rem;
+}
+.login-heading{
+    margin-bottom: 3rem;
+}
+.login-container{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 50vw;
+}
+.login-logo{
+    width:30%;
+    height: 100%;
+}
+@media (min-width: 1536px){
+.container {
+    max-width: 600px;
+}
+}
+.login-out-container{
+    padding-top: 10vh;
+    height: 100vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthenypost.files.wordpress.com%2F2018%2F04%2F180423-strong-handshake-feature.jpg%3Fquality%3D90%26strip%3Dall%26w%3D1200&f=1&nofb=1');
+    background-size: cover;
+}
+.register-link{
+    margin-top: 3rem;
+}
+
+
