@@ -2,10 +2,27 @@
     margin-top: 2rem;
     width: 10rem;
 }
+.btn-register{
+    margin-top: 2rem;
+    width: 10rem;
+    margin-left: 6rem;
+}
+.login-label{
+    margin-top: 2rem;
+}
+.register-form{
+    width: 60%;
+}
 .login-heading{
     margin-bottom: 3rem;
 }
 .login-container{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 50vw;
+}
+.register-container{
     background-color: white;
     border-radius: 1rem;
     padding: 2rem;
@@ -23,6 +40,12 @@
 .login-out-container{
     padding-top: 10vh;
     height: 100vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthenypost.files.wordpress.com%2F2018%2F04%2F180423-strong-handshake-feature.jpg%3Fquality%3D90%26strip%3Dall%26w%3D1200&f=1&nofb=1');
+    background-size: cover;
+}
+.register-out-container{
+    padding-top: 2vh;
+    height: 120vh;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthenypost.files.wordpress.com%2F2018%2F04%2F180423-strong-handshake-feature.jpg%3Fquality%3D90%26strip%3Dall%26w%3D1200&f=1&nofb=1');
     background-size: cover;
 }

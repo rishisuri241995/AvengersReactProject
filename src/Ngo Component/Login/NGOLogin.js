@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Row, Col} from 'react-bootstrap'
 import './Login.css'
-export default class Login extends Component {
+export default class NGoLogin extends Component {
     render() {
         return (
             <div fluid="xl" className="login-out-container">
@@ -13,7 +13,7 @@ export default class Login extends Component {
                     </Row>
                     <Row noGutters={true} className='d-flex login-heading justify-content-center'>
                         <Col md={4}>
-                            <h1>User Login</h1>
+                            <h1>NGO Login</h1>
                         </Col>
                     </Row>
                     <form>

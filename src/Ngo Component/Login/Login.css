@@ -15,11 +15,7 @@
     width:30%;
     height: 100%;
 }
-@media (min-width: 1536px){
-.container {
-    max-width: 600px;
-}
-}
+
 .login-out-container{
     padding-top: 10vh;
     height: 100vh;

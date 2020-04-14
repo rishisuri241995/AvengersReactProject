@@ -9,7 +9,7 @@ import Footer from './Footer/Footer'
 // import Login from './Login/Login'
 // import DonationForm from './DonationForm/DonationForm'
 
-export default class UserDashBoard extends Component {
+export default class NgoDashBoard extends Component {
     render() {
         return (
             <div className="main-con">

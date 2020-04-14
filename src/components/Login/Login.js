@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Row, Col} from 'react-bootstrap'
 import './Login.css'
 export default class Login extends Component {
     render() {
@@ -18,13 +18,13 @@ export default class Login extends Component {
                     </Row>
                     <form>
                         <Row noGutters={true} className='d-flex justify-content-center'>
-                            <Col md={4} className="text-left">
+                            <Col md={6} className="text-left">
                         <label>Email:</label>  
                         <input type="email" name="email" className="form-control" placeholder="Enter Your email here"/>
                         </Col>
                         </Row>
                         <Row noGutters={true} className='d-flex justify-content-center'>
-                            <Col md={4} className="text-left">
+                            <Col md={6} className="text-left">
                         <label>Password:</label>  
                         <input type="password" name="pass" className="form-control" placeholder="Enter Your Password here"/>
                         </Col>
