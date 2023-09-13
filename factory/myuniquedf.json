@@ -1,0 +1,9 @@
+{
+	"name": "myuniquedf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9da285ce-ec08-458a-8128-1e94d69bd1b3",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
